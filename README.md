@@ -11,7 +11,7 @@ Link :https://www.kaggle.com/vadodariyakeyur/motor-vehicle-collisions-nyc
 To run the project make sure you have an API token from https://account.mapbox.com/access-tokens/ 
 MapBox is free and requires registration
 
-## Create a config file for stramlit
+## Create a config file for streamlit
 Token needs to be added to ../.streamlit/config.toml
 This it does not exist by default, you need to create it first.
 Contents can be found after streamlit is installed type in the command line:
