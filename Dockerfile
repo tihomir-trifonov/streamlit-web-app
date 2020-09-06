@@ -1,6 +1,6 @@
 FROM python:3
 
-COPY pyapp.py /
+COPY app.py /
 
 COPY requirements.txt /
 
