@@ -4,8 +4,8 @@ COPY app.py /
 
 COPY requirements.txt /
 
-COPY Motor_Vehicle_Collisions_-_Crashes.csv /
-
 RUN pip install -r requirements.txt
+
+RUN kaggle datasets download vadodariyakeyur/motor-vehicle-collisions-nyc --unzip
 
 CMD ["streamlit" , "run" , "app.py"]

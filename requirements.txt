@@ -1,5 +1,6 @@
-numpy==1.16.4
+numpy==1.19.1
 pandas==1.1.1
 pydeck==0.3.0
 streamlit==0.57.3
 plotly==4.0.0
+kaggle==1.5.8
