@@ -23,3 +23,6 @@ Copy and paste the full contents to a text file and change the .txt to .toml
 
 ## Add your MapBox token to the mapbox part of the config file.
 By default it is "" paste your token between the double quotes
+
+## Run docker image
+
